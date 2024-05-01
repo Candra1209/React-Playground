@@ -4,6 +4,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Homepage } from './homepage/Homepage'
 import LinkPage from './homepage/LinkPage'
+import MainPage from './pages/useForm-exemple/MainPage'
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <LinkPage/>,
+      },
+      {
+        path: "/useForm-example",
+        element: <MainPage/>
       }
     ]
     

@@ -9,15 +9,16 @@ function InfoPage({infoTitle, massage} : infoPageProps) {
 
     let [showInfo, setShowInfo] = useState<boolean>(false)
 
+
     return (
         <>
             <button className='text-xl underline hover:text-warna-3 font-Short-Stack' onClick={() => setShowInfo(!showInfo)}>info</button>
-            <div className={"transition-opacity duration-1000 bg-slate-500/75 fixed top-0 left-0 w-svw h-svh flex justify-center items-center "
+            <div className={" bg-slate-500/75 fixed top-0 left-0 w-svw h-screen flex justify-center items-center "
                 + (showInfo? "visible":"invisible")
             }>
-                <div className={"w-[350px] h-[400px] bg-white rounded-2xl flex flex-col justify-between"
+                <div className={"min-w-[350px] min-h-[400px] bg-white rounded-2xl flex flex-col justify-between"
                 }>
-                    <h1 className="text-center text-2xl font-Pixelify-Sans pt-5">{infoTitle}</h1>
+                    <h1 className="text-center text-2xl font-Honk pt-5">{infoTitle}</h1>
                     
                     <p className="py-2 px-5 text-justify font-Short-Stack">
                         {massage}

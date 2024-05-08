@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { dataProps } from "./FormModel"
 
 function InputForm({setDataList, dataList} : {setDataList:React.Dispatch<React.SetStateAction<dataProps>> , dataList: dataProps}) {

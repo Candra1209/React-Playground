@@ -5,7 +5,7 @@ import { FormModel,dataProps } from "./FormModel"
 import InfoPage from "../../component/InfoPage"
 
 
-function MainPage() {
+export function MotivationMainPage() {
 
     const info = {
         tittle :"Tinggalkan Pesan",
@@ -31,4 +31,4 @@ function MainPage() {
     )
 }
 
-export default MainPage
+

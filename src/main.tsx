@@ -4,7 +4,8 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Homepage } from './homepage/Homepage'
 import LinkPage from './homepage/LinkPage'
-import MainPage from './pages/useForm-exemple/MainPage'
+import { MotivationMainPage} from './pages/useForm-exemple/MotivationMainPage' 
+import { CounterMainPage } from './pages/counter/CounterMainPage'
 
 const router = createBrowserRouter([
   {
@@ -18,8 +19,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/useForm-example",
-        element: <MainPage/>
-      }
+        element: <MotivationMainPage/>
+      },
+      {
+        path: "/counter",
+        element: <CounterMainPage/>
+      },
     ]
     
   }

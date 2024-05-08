@@ -31,13 +31,13 @@ export function Navbar(){
                 
                 }>
                 <div className="flex justify-between px-5 py-4">
-                    <Link className="text-xl font-Honk" to='/'>
+                    <Link className="text-xl font-Honk" to='/' >
                         R-Playground
                     </Link>
                     <button onClick={hideNav}>❌</button>
                 </div>
                 <div className="flex flex-col py-5">
-                    <LinkItem styleLink="font-Plus-Jakarta-Sans font-medium hover:bg-warna-3 hover:text-white text-center py-3"/>
+                    <LinkItem styleLink="font-Plus-Jakarta-Sans font-medium hover:bg-warna-3 hover:text-white text-center py-3" isHide={isHide}/>
                 </div>
             </div>
         </>

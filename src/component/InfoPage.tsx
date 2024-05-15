@@ -12,7 +12,7 @@ function InfoPage({infoTitle, massage} : infoPageProps) {
 
     return (
         <>
-            <button className='text-xl underline hover:text-warna-3 font-Short-Stack' onClick={() => setShowInfo(!showInfo)}>info</button>
+            <button className=' w-10  h-10 text-3xl ring-2 ring-black rounded-full hover:ring-warna-3 hover:text-warna-3 font-Short-Stack' onClick={() => setShowInfo(!showInfo)}>⁉</button>
             <div className={" bg-slate-500/75 fixed top-0 left-0 w-svw h-screen flex justify-center items-center "
                 + (showInfo? "visible":"invisible")
             }>

@@ -18,7 +18,9 @@ function LinkPage() {
             <div className='
             flex flex-col items-center gap-3 py-5
             '>
-                <LinkItem styleLink=" rounded-xl ring-1 ring-warna-4 hover:ring-0 hover:bg-warna-4 hover:text-white  font-semibold font-Plus-Jakarta-Sans text-warna-4 text-center w-[300px] py-2 "/>
+                <div className='grid gap-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4'>
+                    <LinkItem styleLink=" rounded-xl ring-1 ring-warna-4 hover:ring-0 hover:bg-warna-4 hover:text-white  font-semibold font-Plus-Jakarta-Sans text-warna-4 text-center min-w-[200px] py-2 "/>
+                </div>
             </div>
         </>
     )

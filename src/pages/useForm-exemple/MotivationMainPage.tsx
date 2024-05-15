@@ -9,7 +9,7 @@ export function MotivationMainPage() {
 
     const info = {
         tittle :"Tinggalkan Pesan",
-        massage: "pada page ini akan menangkap input dengan event lalu di tampilkan pada component disamping, perhatian inputan tidak akan disimpan di server"
+        massage: "pada page ini akan menangkap input dengan event lalu di tampilkan pada component disamping, perhatian inputan tidak akan disimpan di server. Component ini dibuat dengan 2 custom Hook yaitu useDataForm untuk menangkap inputan dari atribut HTML dan useErrorState untuk menampung error yang ada"
     }
 
     const [dataList, setDataList] = useState<dataProps>(FormModel)

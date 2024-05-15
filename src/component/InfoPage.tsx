@@ -18,7 +18,7 @@ function InfoPage({infoTitle, massage} : infoPageProps) {
             }>
                 <div className={" max-w-[90%] min-h-[400px] md:max-w-[60%] md:max-h-[800px] bg-white rounded-2xl flex flex-col justify-between"
                 }>
-                    <h1 className="text-center text-2xl font-Honk pt-5">{infoTitle}</h1>
+                    <h1 className="text-center text-2xl md:text-4xl font-Honk pt-5">{infoTitle}</h1>
                     
                     <p className="text-sm md:text-sm py-2 px-5 text-justify font-Short-Stack">
                         {massage}

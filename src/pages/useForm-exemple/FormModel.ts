@@ -1,9 +1,11 @@
-export type dataProps = {
+export type data = {
     id:number, 
     jenis:string, 
     pesan:string, 
     nama:string
-}[]
+}
+
+export type dataProps = data[]
 
 export let FormModel = [
     {

@@ -15,7 +15,7 @@ export function CounterMainPage(){
     
     const pesan = {
         title : "Counter useContext",
-        massage : "counter ini dibuat dengan menggunakan 2 komponen berbeda, yaitu komponen view untuk menampilkan angak dan komponen view untuk memanipulasi angka, awal nya menggunakan custom hook namun saya menyadari bahwa custom hook hanya berbagi code bukan nilai, lalu saya mencoba context hook dan membuat custom context hook tersebut"
+        massage : "counter ini dibuat dengan menggunakan 2 komponen berbeda, yaitu komponen view untuk menampilkan angak dan komponen form untuk memanipulasi angka, awal nya saya menggunakan custom hook namun saya menyadari bahwa custom hook hanya berbagi code bukan nilai, lalu saya mencoba context hook dan membuat custom context hook tersebut"
     }
     
     return(
